@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Contact Page</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Contact Page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">About Page</a>
-      <a href="/page3.html">Contact Page</a>
-      <a href="https://gus.pittstate.edu/mygus/">Gus Homepage</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/page2.html">About Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/page3.html">Contact Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gus.pittstate.edu/mygus/"
+              >Gus Homepage</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
-    <main>
+
+    <main class="container mt-4">
       <h1>Contact Page</h1>
-      <p>This is a Picture of me!</p>
+      <p>This is a picture of me!</p>
       <img
         src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/28476431-2956-40cd-b05a-30f5f0e1f020/d5fypa6-1a3943d3-3f36-4f55-93d1-b2f670b0d704.jpg/v1/fill/w_1000,h_731,q_75,strp/mtg__sunspire_griffin_by_algenpfleger_d5fypa6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMxIiwicGF0aCI6IlwvZlwvMjg0NzY0MzEtMjk1Ni00MGNkLWIwNWEtMzBmNWYwZTFmMDIwXC9kNWZ5cGE2LTFhMzk0M2QzLTNmMzYtNGY1NS05M2QxLWIyZjY3MGIwZDcwNC5qcGciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FJnDxhfVKqLAU-8XDtFNd49Yvl1CDVoV7TwcvllgEnQ"
+        alt="Picture of me"
         width="230"
         height="220"
       />
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

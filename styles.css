@@ -4,9 +4,9 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  font-family: Arial, sans-serif; /* Change to your preferred font-family */
+  color: #333; /* Adjust text color */
+  background-color: #f8f8f8; /* Adjust background color */
 }
 
 nav {
@@ -16,7 +16,7 @@ nav {
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
+  border-bottom: solid 2px #555; /* Thicker border */
   background-color: #eee;
 }
 
@@ -24,23 +24,91 @@ nav a {
   display: inline-block;
   min-width: 9rem;
   padding: 0.5rem;
-  border-radius: 0.2rem;
+  border-radius: 0.3rem; /* Slightly rounded corners */
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
   color: #555;
+  font-weight: bold; /* Add bold font */
 }
 
 nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+  color: #fff; /* Change active link text color */
+  background-color: #007bff; /* Change active link background color to blue */
 }
 
 main {
   padding: 1rem;
+  background-color: #fff; /* White background for content */
+  border: solid 1px #ddd; /* Add a subtle border */
+  border-radius: 0.3rem; /* Slightly rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
 }
 
 h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem; /* Increase heading font size */
+  color: #333; /* Heading text color */
+  margin-bottom: 1rem; /* Add space below heading */
+}
+
+p {
+  font-size: 1.1rem; /* Increase paragraph font size */
+  line-height: 1.4; /* Add some line spacing for readability */
+}
+
+ul {
+  list-style-type: disc; /* Use bullet points for lists */
+  margin-left: 1.5rem; /* Indent list items */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem; /* Add space above the table */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2; /* Gray background for table header */
+}
+
+img {
+  max-width: 100%; /* Ensure images stay within their container */
+  display: block; /* Remove image borders and whitespace */
+  margin: 0 auto; /* Center images */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff; /* White background for the table */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold; /* Make table headers bold */
+  text-transform: uppercase; /* Convert header text to uppercase */
+}
+
+tr:nth-child(even) {
+  background-color: #f5f5f5; /* Alternate row background color */
+}
+
+tr:hover {
+  background-color: #e0e0e0; /* Highlight row on hover */
 }
